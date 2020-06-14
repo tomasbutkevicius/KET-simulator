@@ -36,6 +36,21 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\RoadArchitect\Editor\GSDEditorProgressWindow.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDHelpWindow.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDNotification.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDObjExporter.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDRoadEditor.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDRoadIntersectionEditor.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDRoadSystemEditor.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDRoadSystemEditorMenu.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDSaveWindow.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDSplineCEditor.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDSplineFEditor.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDSplineIEditor.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDSplineNEditor.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDTerrainEditor.cs" />
+     <Compile Include="Assets\RoadArchitect\Editor\GSDWizard.cs" />
      <Compile Include="Assets\Tutorial_Info\Scripts\Editor\ReadmeEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -598,6 +613,9 @@
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:/Users/Tomas/KET simulator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TerrainTools">
+        <HintPath>C:/Users/Tomas/KET simulator/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:/Users/Tomas/KET simulator/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -625,14 +643,11 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:/Users/Tomas/KET simulator/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>C:/Users/Tomas/KET simulator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TerrainTools">
-        <HintPath>C:/Users/Tomas/KET simulator/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TerrainTools.Editor">
         <HintPath>C:/Users/Tomas/KET simulator/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:/Users/Tomas/KET simulator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
