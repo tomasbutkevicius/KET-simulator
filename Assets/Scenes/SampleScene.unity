@@ -7880,8 +7880,8 @@ MonoBehaviour:
   frontPassengerT: {fileID: 124531231}
   rearDriverT: {fileID: 1284119358}
   rearPassengerT: {fileID: 1037476530}
-  maxSteerAngle: 30
-  motorForce: 100
+  maxSteerAngle: 35
+  motorForce: 2900
 --- !u!54 &1221556294
 Rigidbody:
   m_ObjectHideFlags: 0
